@@ -86,6 +86,8 @@ const App = () => {
           <h1>Find <span className="text-gradient">Movies</span> You'll Enjoy the Hassle</h1>
 
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+
+          <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
 
         {trendingMovies.length > 0 && (
